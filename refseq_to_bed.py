@@ -5,7 +5,7 @@ import argparse
 def parse_args():
     p = argparse.ArgumentParser(
         prog="refseq_to_bed",
-        description="Convert RefSeq GTF or BED into region BED for bam_statistics_v4.py"
+        description="Convert RefSeq GTF or BED into region BED for bam_statistics.py"
     )
     p.add_argument("--gtf", help="RefSeq GTF file", default=None)
     p.add_argument("--bed", help="RefSeq BED file (already exon/CDS)", default=None)
